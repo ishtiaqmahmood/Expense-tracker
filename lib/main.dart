@@ -1,17 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:provider/provider.dart';
-import 'package:isar/isar.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 import 'package:local_auth/local_auth.dart';
 import 'services/database_service.dart';
-import 'services/auth_service.dart';
-import 'services/backup_service.dart';
 import 'providers/theme_provider.dart';
 import 'providers/settings_provider.dart';
 import 'providers/expense_provider.dart';
 import 'providers/auth_provider.dart';
-import 'screens/splash_screen.dart';
 import 'pages/home_page.dart';
 import 'utils/constants.dart';
 
@@ -90,9 +86,8 @@ class ProExpenseApp extends StatelessWidget {
           darkTheme: themeProvider.darkTheme,
           themeMode: settingsProvider.themeMode,
           
-          // Localizations for multi-language support
-          localizationsDelegates: const [],
-          supportedLocales: AppConstants.supportedLocales,
+          // Localizations for multi-language support (simplified)
+          locale: const Locale('en', 'US'),
           
           // Initial route - use HomePage directly
           home: const HomePage(),

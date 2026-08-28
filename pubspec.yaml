@@ -15,7 +15,7 @@ dependencies:
   # Database & Local Storage
   isar: ^3.1.0+1
   isar_flutter_libs: ^3.1.0+1
-  path_provider: ^2.1.6
+  path_provider: ^2.1.5
   shared_preferences: ^2.3.3
   hive: ^2.2.3
   hive_flutter: ^1.1.0
