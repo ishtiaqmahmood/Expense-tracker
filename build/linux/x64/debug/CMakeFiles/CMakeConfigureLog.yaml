@@ -1352,8 +1352,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8"
-      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8"
+      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt"
+      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
       CMAKE_CXX_FLAGS: ""
@@ -1364,10 +1364,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8'
+        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_98994
-        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/ninja -v cmTC_1cad3
+        [1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         Ubuntu clang version 21.1.8 (6ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1377,7 +1377,7 @@ events:
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
          (in-process)
-         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8 -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8 -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
         clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -1391,7 +1391,7 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98994   && :
+        [2/2] : && /usr/bin/clang++  -v -Wl,-v CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1cad3   && :
         Ubuntu clang version 21.1.8 (6ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -1400,7 +1400,7 @@ events:
         Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
-         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98994 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1cad3 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
         
       exitCode: 0
@@ -1442,10 +1442,10 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8']
+        ignore line: [Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_98994]
-        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_1cad3]
+        ignore line: [[1/2] /usr/bin/clang++   -v -MD -MT CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -MF CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o.d -o CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1457,7 +1457,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8 -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-pcoJI8 -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCXXCompilerABI.cpp -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-nwPbOt -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o.d -MT CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -sys-header-deps -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/x86_64-linux-gnu/c++/15 -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../include/c++/15/backward -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -fdeprecated-macro -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -fcxx-exceptions -fexceptions -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -x c++ /usr/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -1471,7 +1471,7 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_98994   && :]
+        ignore line: [[2/2] : && /usr/bin/clang++  -v -Wl -v CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1cad3   && :]
         ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -1482,7 +1482,7 @@ events:
         ignore line: [@m64]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_98994 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1cad3 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-zrelro] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -1494,7 +1494,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_98994] ==> ignore
+          arg [cmTC_1cad3] ==> ignore
           arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
           arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -1507,7 +1507,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_98994.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_1cad3.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -4466,8 +4466,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o"
-      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o"
+      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH"
+      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
       CMAKE_C_FLAGS: ""
@@ -4477,10 +4477,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o'
+        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_96fc1
-        [1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/ninja -v cmTC_bd4a5
+        [1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         Ubuntu clang version 21.1.8 (6ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -4490,7 +4490,7 @@ events:
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
          (in-process)
-         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+         "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c
         clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu
         ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"
         ignoring nonexistent directory "/include"
@@ -4501,7 +4501,7 @@ events:
          /usr/include/x86_64-linux-gnu
          /usr/include
         End of search list.
-        [2/2] : && /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -o cmTC_96fc1   && :
+        [2/2] : && /usr/bin/clang  -v -Wl,-v CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -o cmTC_bd4a5   && :
         Ubuntu clang version 21.1.8 (6ubuntu1)
         Target: x86_64-pc-linux-gnu
         Thread model: posix
@@ -4510,7 +4510,7 @@ events:
         Selected GCC installation: /usr/lib/gcc/x86_64-linux-gnu/15
         Candidate multilib: .;@m64
         Selected multilib: .;@m64
-         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_96fc1 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
+         "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bd4a5 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o
         GNU ld (GNU Binutils for Ubuntu) 2.46
         
       exitCode: 0
@@ -4546,10 +4546,10 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o']
+        ignore line: [Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_96fc1]
-        ignore line: [[1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/ninja -v cmTC_bd4a5]
+        ignore line: [[1/2] /usr/bin/clang   -v -MD -MT CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -MF CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o.d -o CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -4561,7 +4561,7 @@ events:
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
         ignore line: [ (in-process)]
-        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-XPZy0o -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [ "/usr/lib/llvm-21/bin/clang" -cc1 -triple x86_64-pc-linux-gnu -emit-obj -disable-free -clear-ast-before-backend -disable-llvm-verifier -discard-value-names -main-file-name CMakeCCompilerABI.c -mrelocation-model pic -pic-level 2 -pic-is-pie -mframe-pointer=all -fmath-errno -ffp-contract=on -fno-rounding-math -mconstructor-aliases -funwind-tables=2 -target-cpu x86-64 -tune-cpu generic -debugger-tuning=gdb -fdebug-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH -v -fcoverage-compilation-dir=/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-JVG2VH -resource-dir /usr/lib/llvm-21/lib/clang/21 -dependency-file CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o.d -MT CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -sys-header-deps -internal-isystem /usr/lib/llvm-21/lib/clang/21/include -internal-isystem /usr/local/include -internal-isystem /usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include -internal-externc-isystem /usr/include/x86_64-linux-gnu -internal-externc-isystem /include -internal-externc-isystem /usr/include -ferror-limit 19 -fgnuc-version=4.2.1 -fskip-odr-check-in-gmf -faddrsig -D__GCC_HAVE_DWARF2_CFI_ASM=1 -o CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -x c /usr/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
         ignore line: [clang -cc1 version 21.1.8 based upon LLVM 21.1.8 default target x86_64-pc-linux-gnu]
         ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/15/../../../../x86_64-linux-gnu/include"]
         ignore line: [ignoring nonexistent directory "/include"]
@@ -4572,7 +4572,7 @@ events:
         ignore line: [ /usr/include/x86_64-linux-gnu]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [[2/2] : && /usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -o cmTC_96fc1   && :]
+        ignore line: [[2/2] : && /usr/bin/clang  -v -Wl -v CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -o cmTC_bd4a5   && :]
         ignore line: [Ubuntu clang version 21.1.8 (6ubuntu1)]
         ignore line: [Target: x86_64-pc-linux-gnu]
         ignore line: [Thread model: posix]
@@ -4583,7 +4583,7 @@ events:
         ignore line: [@m64]
         ignore line: [Selected multilib: .]
         ignore line: [@m64]
-        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_96fc1 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
+        link line: [ "/usr/bin/ld" -z relro --hash-style=gnu --build-id --eh-frame-hdr -m elf_x86_64 -pie -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_bd4a5 /lib/x86_64-linux-gnu/Scrt1.o /lib/x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/15 -L/usr/lib/gcc/x86_64-linux-gnu/15/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib64 -L/lib -L/usr/lib -v CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/15/crtendS.o /lib/x86_64-linux-gnu/crtn.o]
           arg [/usr/bin/ld] ==> ignore
           arg [-zrelro] ==> ignore
           arg [--hash-style=gnu] ==> ignore
@@ -4595,7 +4595,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_96fc1] ==> ignore
+          arg [cmTC_bd4a5] ==> ignore
           arg [/lib/x86_64-linux-gnu/Scrt1.o] ==> obj [/lib/x86_64-linux-gnu/Scrt1.o]
           arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
           arg [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/15/crtbeginS.o]
@@ -4608,7 +4608,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_96fc1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_bd4a5.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -4804,8 +4804,8 @@ events:
       - "/usr/share/cmake-4.2/Modules/FindJNI.cmake:590 (check_source_compiles)"
       - "flutter/ephemeral/.plugin_symlinks/jni/src/CMakeLists.txt:24 (find_package)"
     directories:
-      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-51bIbb"
-      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-51bIbb"
+      source: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-L4lViz"
+      binary: "/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-L4lViz"
     cmakeVariables:
       CMAKE_CXX_COMPILER_CLANG_SCAN_DEPS: "/usr/bin/clang-scan-deps-21"
       CMAKE_C_FLAGS: ""
@@ -4815,11 +4815,11 @@ events:
       variable: "JNI_INCLUDE_PATH2_OPTIONAL"
       cached: true
       stdout: |
-        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-51bIbb'
+        Change Dir: '/home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-L4lViz'
         
-        Run Build Command(s): /usr/bin/ninja -v cmTC_18422
-        [1/2] /usr/bin/clang -DJNI_INCLUDE_PATH2_OPTIONAL -I/home/acer/Flutter/expense/linux/flutter/ephemeral/.plugin_symlinks/jni/src/../third_party  -MD -MT CMakeFiles/cmTC_18422.dir/src.c.o -MF CMakeFiles/cmTC_18422.dir/src.c.o.d -o CMakeFiles/cmTC_18422.dir/src.c.o -c /home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-51bIbb/src.c
-        [2/2] : && /usr/bin/clang   CMakeFiles/cmTC_18422.dir/src.c.o -o cmTC_18422   && :
+        Run Build Command(s): /usr/bin/ninja -v cmTC_16291
+        [1/2] /usr/bin/clang -DJNI_INCLUDE_PATH2_OPTIONAL -I/home/acer/Flutter/expense/linux/flutter/ephemeral/.plugin_symlinks/jni/src/../third_party  -MD -MT CMakeFiles/cmTC_16291.dir/src.c.o -MF CMakeFiles/cmTC_16291.dir/src.c.o.d -o CMakeFiles/cmTC_16291.dir/src.c.o -c /home/acer/Flutter/expense/build/linux/x64/debug/CMakeFiles/CMakeScratch/TryCompile-L4lViz/src.c
+        [2/2] : && /usr/bin/clang   CMakeFiles/cmTC_16291.dir/src.c.o -o cmTC_16291   && :
         
       exitCode: 0
 ...

@@ -21,25 +21,24 @@ Future<void> _initializeNotifications() async {
 
   const DarwinInitializationSettings initializationSettingsIOS =
       DarwinInitializationSettings(
-        requestAlertPermission: true,
-        requestBadgePermission: true,
-        requestSoundPermission: true,
-      );
+    requestAlertPermission: true,
+    requestBadgePermission: true,
+    requestSoundPermission: true,
+  );
 
   const LinuxInitializationSettings initializationSettingsLinux =
       LinuxInitializationSettings(
-        defaultActionName: 'Open notification',
-      );
+    defaultActionName: 'Open notification',
+  );
 
-  const InitializationSettings initializationSettings =
-      InitializationSettings(
+  const InitializationSettings initializationSettings = InitializationSettings(
     android: initializationSettingsAndroid,
     iOS: initializationSettingsIOS,
     linux: initializationSettingsLinux,
   );
 
   await flutterLocalNotificationsPlugin.initialize(
-    initializationSettings,
+    settings: initializationSettings,
     onDidReceiveNotificationResponse: (response) {
       // Handle notification response
     },
@@ -48,19 +47,19 @@ Future<void> _initializeNotifications() async {
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  
+
   // Initialize database
   await DatabaseService.initialize();
-  
+
   // Initialize notifications
   await _initializeNotifications();
-  
+
   // Set preferred orientations for mobile
   await SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
-  
+
   // Set system UI overlay style
   SystemChrome.setSystemUIOverlayStyle(
     const SystemUiOverlayStyle(
@@ -68,7 +67,7 @@ void main() async {
       statusBarIconBrightness: Brightness.dark,
     ),
   );
-  
+
   runApp(const ProExpenseApp());
 }
 
@@ -87,19 +86,19 @@ class ProExpenseApp extends StatelessWidget {
       builder: (context, _) {
         final themeProvider = Provider.of<ThemeProvider>(context);
         final settingsProvider = Provider.of<SettingsProvider>(context);
-        
+
         return MaterialApp(
           title: 'Pro Expense Tracker',
           debugShowCheckedModeBanner: false,
-          
+
           // Theme configuration
           theme: themeProvider.lightTheme,
           darkTheme: themeProvider.darkTheme,
           themeMode: settingsProvider.themeMode,
-          
+
           // Localizations for multi-language support (simplified)
           locale: const Locale('en', 'US'),
-          
+
           // Initial route - use HomePage directly
           home: const HomePage(),
         );
