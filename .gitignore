@@ -1,22 +1,33 @@
 ```
 # Flutter/Dart specific
-**/*.g.dart
+**/ios/**
+**/android/**
+**/linux/flutter/ephemeral
+**/macos/flutter/ephemeral  
+**/windows/flutter/ephemeral
 .dart_tool/
 .packages
+.pub-cache/
 .pub/
 build/
-ios/.symlinks/
+*.g.dart
+
+# Dependencies
+node_modules/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
 # Dependencies
 pubspec.lock
 
-# Generated plugin files
-lib/models/*.g.dart
-linux/flutter/generated_plugin_registrant.cc
-linux/flutter/generated_plugins.cmake
-macos/Flutter/GeneratedPluginRegistrant.swift
-windows/flutter/generated_plugin_registrant.cc
-windows/flutter/generated_plugins.cmake
-.flutter-plugins
-.flutter-plugins-dependencies
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
 ```
