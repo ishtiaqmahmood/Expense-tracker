@@ -1,6 +1,8 @@
 import 'package:isar/isar.dart';
 import 'package:path_provider/path_provider.dart';
 import '../models/expense.dart';
+import '../models/budget.dart';
+import '../models/settings.dart';
 
 class DatabaseService {
   static late Isar _isar;
@@ -8,7 +10,7 @@ class DatabaseService {
   static Future<void> initialize() async {
     final dir = await getApplicationDocumentsDirectory();
     _isar = await Isar.open(
-      [ExpenseSchema],
+      [ExpenseSchema, BudgetSchema, SettingsSchema],
       directory: dir.path,
     );
   }
@@ -31,7 +33,7 @@ class DatabaseService {
     });
   }
 
-  static Future<void> deleteExpense(Id id) async {
+  static Future<void> deleteExpense(int id) async {
     await _isar.writeTxn(() async {
       await _isar.expenses.delete(id);
     });
@@ -74,4 +76,35 @@ class DatabaseService {
       await _isar.expenses.put(expense);
     });
   }
+
+  // Budget methods
+  static Future<List<Budget>> getAllBudgets() async {
+    return await _isar.budgets.where().findAll();
+  }
+
+  static Future<void> addBudget(Budget budget) async {
+    await _isar.writeTxn(() async {
+      await _isar.budgets.put(budget);
+    });
+  }
+
+  static Future<void> deleteBudget(int id) async {
+    await _isar.writeTxn(() async {
+      await _isar.budgets.delete(id);
+    });
+  }
+
+  // Settings methods
+  static Future<Settings?> getSettings() async {
+    return await _isar.settings.where().findFirst();
+  }
+
+  static Future<void> saveSettings(Settings settings) async {
+    await _isar.writeTxn(() async {
+      await _isar.settings.put(settings);
+    });
+  }
+
+  // Get Isar instance for backup service
+  static Isar get instance => _isar;
 }

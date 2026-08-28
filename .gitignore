@@ -27,18 +27,17 @@
 .DS_Store
 Thumbs.db
 
-# Build outputs
-build/
-dist/
-target/
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# Python (if applicable)
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-venv/
-.venv/
-.env
+# Coverage
+coverage/
+htmlcov/
+.coverage
+
+# Temporary files
+*.tmp
 ```

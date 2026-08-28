@@ -65,7 +65,7 @@ class ExpenseProvider extends ChangeNotifier {
     await loadExpenses();
   }
 
-  Future<void> deleteExpense(Id id) async {
+  Future<void> deleteExpense(int id) async {
     await DatabaseService.deleteExpense(id);
     await loadExpenses();
   }
