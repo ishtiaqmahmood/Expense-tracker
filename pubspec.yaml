@@ -23,7 +23,8 @@ dependencies:
   # Charts and graphs - Premium visuals
   fl_chart: ^0.69.0
   syncfusion_flutter_charts: ^27.1.50
-  animated_chart: ^1.0.1
+  flutter_animate: ^4.5.0
+  lottie: ^3.1.0
   
   # PDF generation
   pdf: ^3.11.0
@@ -67,13 +68,6 @@ dependencies:
   # Device info for Play Store
   device_info_plus: ^11.1.1
   
-  # In-app reviews
-  in_app_review: ^2.0.9
-  
-  # Beautiful UI components
-  shimmer: ^3.0.0
-  flutter_animate: ^4.5.0
-  lottie: ^3.1.3
   
   # Currency conversion
   http: ^1.2.2
