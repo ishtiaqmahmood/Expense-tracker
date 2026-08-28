@@ -26,13 +26,24 @@ Future<void> _initializeNotifications() async {
         requestSoundPermission: true,
       );
 
+  const LinuxInitializationSettings initializationSettingsLinux =
+      LinuxInitializationSettings(
+        defaultActionName: 'Open notification',
+      );
+
   const InitializationSettings initializationSettings =
       InitializationSettings(
     android: initializationSettingsAndroid,
     iOS: initializationSettingsIOS,
+    linux: initializationSettingsLinux,
   );
 
-  await flutterLocalNotificationsPlugin.initialize(initializationSettings);
+  await flutterLocalNotificationsPlugin.initialize(
+    initializationSettings,
+    onDidReceiveNotificationResponse: (response) {
+      // Handle notification response
+    },
+  );
 }
 
 void main() async {

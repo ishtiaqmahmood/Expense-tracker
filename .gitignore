@@ -1,3 +1,27 @@
-Nothing should be ignored in this case, as the added files are all assets (icons, images, Lottie animations) which are legitimate project resources that should be version controlled. There are no build artifacts, temporary files, or other items that need to be excluded.
+```
+# Build artifacts
+build/
+.dart_tool/
+.packages
 
-Output: (empty)
+# Dependencies
+pubspec.lock
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+```
