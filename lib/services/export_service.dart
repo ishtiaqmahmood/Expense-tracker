@@ -29,7 +29,7 @@ class ExportService {
       ]);
     }
     
-    String csv = const ListToCsvConverter().convert(rows);
+    String csv = const CsvToListConverter().convert(rows);
     final file = File(filePath);
     await file.writeAsString(csv);
     
