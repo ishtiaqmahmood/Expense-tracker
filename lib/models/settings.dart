@@ -4,6 +4,8 @@ part 'settings.g.dart';
 
 @collection
 class Settings {
+  Settings();
+  
   Id id = Isar.autoIncrement;
   
   String currencySymbol = '\$';

@@ -4,6 +4,8 @@ part 'budget.g.dart';
 
 @collection
 class Budget {
+  Budget();
+  
   Id id = Isar.autoIncrement;
   
   @Index()

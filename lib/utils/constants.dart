@@ -7,18 +7,18 @@ class AppConstants {
   static const String appVersion = '2.0.0';
   static const String appDescription = 'Smart Finance Management';
 
-  // Supported Languages
-  static const List<Locale> supportedLocales = [
-    Locale('en', 'US'),
-    Locale('es', 'ES'),
-    Locale('fr', 'FR'),
-    Locale('de', 'DE'),
-    Locale('zh', 'CN'),
-    Locale('ja', 'JP'),
-    Locale('hi', 'IN'),
+  // Supported Languages - simplified for now
+  static const List<Map<String, String>> supportedLocales = [
+    {'languageCode': 'en', 'countryCode': 'US'},
+    {'languageCode': 'es', 'countryCode': 'ES'},
+    {'languageCode': 'fr', 'countryCode': 'FR'},
+    {'languageCode': 'de', 'countryCode': 'DE'},
+    {'languageCode': 'zh', 'countryCode': 'CN'},
+    {'languageCode': 'ja', 'countryCode': 'JP'},
+    {'languageCode': 'hi', 'countryCode': 'IN'},
   ];
 
-  static const List localizationsDelegates = [];
+  // Removed localizationsDelegates - using empty list in main.dart
 
   // Default Categories with icons and colors
   static const List<Map<String, dynamic>> expenseCategories = [
