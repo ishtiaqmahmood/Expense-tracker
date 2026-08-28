@@ -15,7 +15,7 @@ class BudgetCard extends StatelessWidget {
   });
   
   Color get _progressColor {
-    final percentage = budget.amount > 0 ? (spentAmount / budget.amount) * 100 : 0;
+    final percentage = budget.amount > 0 ? (spentAmount / budget.amount) * 100.0 : 0.0;
     if (percentage >= 100) return Colors.red;
     if (percentage >= 75) return Colors.orange;
     return Colors.green;
@@ -25,7 +25,7 @@ class BudgetCard extends StatelessWidget {
   Widget build(BuildContext context) {
     final theme = Theme.of(context);
     final remaining = budget.amount - spentAmount;
-    final percentage = budget.amount > 0 ? (spentAmount / budget.amount) * 100 : 0;
+    final percentage = budget.amount > 0 ? (spentAmount / budget.amount) * 100.0 : 0.0;
     
     return Card(
       elevation: 2,

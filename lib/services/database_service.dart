@@ -47,7 +47,7 @@ class DatabaseService {
 
   static Future<double> getTotalByType(String type) async {
     final expenses = await getExpensesByType(type);
-    return expenses.fold(0.0, (sum, item) => sum + item.amount);
+    return expenses.fold<double>(0.0, (sum, item) => sum + item.amount);
   }
 
   static Future<Map<String, double>> getTotalsByCategory(String type) async {

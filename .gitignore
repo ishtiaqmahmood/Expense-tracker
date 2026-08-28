@@ -1,43 +1,22 @@
 ```
-# Dependencies
+# Flutter/Dart specific
+**/*.g.dart
 .dart_tool/
 .packages
 .pub/
+build/
+ios/.symlinks/
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+pubspec.lock
 
-# Logs
-*.log
-
-# Temporary files
-*.tmp
-*.swp
-
-# IDE
-.vscode/
-.idea/
-*.iml
-*.ipr
-*.iws
-
-# OS
-.DS_Store
-Thumbs.db
-
-# IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
-
-# Temporary files
-*.tmp
+# Generated plugin files
+lib/models/*.g.dart
+linux/flutter/generated_plugin_registrant.cc
+linux/flutter/generated_plugins.cmake
+macos/Flutter/GeneratedPluginRegistrant.swift
+windows/flutter/generated_plugin_registrant.cc
+windows/flutter/generated_plugins.cmake
+.flutter-plugins
+.flutter-plugins-dependencies
 ```
