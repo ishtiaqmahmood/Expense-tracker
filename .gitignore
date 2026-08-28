@@ -21,10 +21,8 @@ node_modules/
 *.swp
 *.swo
 
-# Environment
-.env
-.env.local
-*.env.*
+# Dependencies
+pubspec.lock
 
 # Logs
 *.log
