@@ -3,30 +3,27 @@
 .dart_tool/
 .packages
 .pub/
+pubspec.lock
 
-# Build
+# Build artifacts
 build/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
 
 # Environment
 .env
 .env.local
 *.env.*
-
-# Logs
-*.log
-
-# IDE
-.idea/
-.vscode/
-*.swp
-*.swo
-
-# OS
-.DS_Store
-Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
 ```
