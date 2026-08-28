@@ -1,0 +1,21 @@
+# ninja log v7
+2	34	1787916404199618189	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-mkdir	5bac228037c35d38
+2	34	1787916404199618189	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-mkdir	5bac228037c35d38
+34	4733	1787916408899358992	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-download	6b0ee7ca140646c0
+34	4733	1787916408899358992	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-download	6b0ee7ca140646c0
+4733	4761	1787916408927357453	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-update	ea49973baad1fbfb
+4733	4761	1787916408927357453	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-update	ea49973baad1fbfb
+4761	4791	1787916408957355803	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-patch	9e50015af323efdb
+4761	4791	1787916408957355803	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-patch	9e50015af323efdb
+4791	4820	1787916408986354209	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-configure	a69df9be4a6a2b39
+4791	4820	1787916408986354209	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-configure	a69df9be4a6a2b39
+4820	4849	1787916409015352616	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-build	e3560083a3739441
+4820	4849	1787916409015352616	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-build	e3560083a3739441
+4849	4878	1787916409044351024	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-install	43c857c4ba28a5b
+4849	4878	1787916409044351024	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-install	43c857c4ba28a5b
+4878	4907	1787916409072349487	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-test	b7f93060bf02d627
+4878	4907	1787916409072349487	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-test	b7f93060bf02d627
+4907	4950	1787916409116347072	CMakeFiles/pdfium-download-complete	e5de33928323c225
+4907	4950	1787916409116347072	pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-done	e5de33928323c225
+4907	4950	1787916409116347072	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/CMakeFiles/pdfium-download-complete	e5de33928323c225
+4907	4950	1787916409116347072	/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/pdfium-download-prefix/src/pdfium-download-stamp/pdfium-download-done	e5de33928323c225

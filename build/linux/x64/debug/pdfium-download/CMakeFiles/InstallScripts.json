@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/acer/Flutter/expense/build/linux/x64/debug/pdfium-download/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

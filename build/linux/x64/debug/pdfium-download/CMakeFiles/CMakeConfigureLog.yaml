@@ -1,0 +1,75 @@
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "CMakeLists.txt:6 (project)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/snap/flutter/current/usr/bin/"
+      - "/snap/flutter/current/bin/"
+      - "/home/acer/snap/flutter/common/flutter/bin/"
+      - "/home/acer/.nvm/versions/node/v24.16.0/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/acer/Android/Sdk/platform-tools/"
+      - "/home/acer/Android/Sdk/cmdline-tools/latest/bin/"
+    searched_directories:
+      - "/snap/flutter/current/usr/bin/uname"
+      - "/snap/flutter/current/bin/uname"
+      - "/home/acer/snap/flutter/common/flutter/bin/uname"
+      - "/home/acer/.nvm/versions/node/v24.16.0/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      ENV{PATH}:
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/acer/snap/flutter/common/flutter/bin"
+        - "/snap/flutter/current/usr/bin"
+        - "/snap/flutter/current/bin"
+        - "/home/acer/snap/flutter/common/flutter/bin"
+        - "/home/acer/.nvm/versions/node/v24.16.0/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+        - "/home/acer/Android/Sdk/platform-tools"
+        - "/home/acer/Android/Sdk/cmdline-tools/latest/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:6 (project)"
+    message: |
+      The system is: Linux - 7.0.0-30-generic - x86_64
+...

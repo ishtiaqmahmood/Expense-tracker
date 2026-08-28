@@ -8,7 +8,8 @@
 
 import 'package:connectivity_plus/src/connectivity_plus_web.dart';
 import 'package:device_info_plus/src/device_info_plus_web.dart';
-import 'package:file_picker/_internal/file_picker_web.dart';
+import 'package:file_picker_web/file_picker_web.dart';
+import 'package:flutter_local_notifications_web/flutter_local_notifications_web.dart';
 import 'package:flutter_secure_storage_web/flutter_secure_storage_web.dart';
 import 'package:image_cropper_for_web/image_cropper_for_web.dart';
 import 'package:image_picker_for_web/image_picker_for_web.dart';
@@ -23,6 +24,7 @@ void registerPlugins([final Registrar? pluginRegistrar]) {
   ConnectivityPlusWebPlugin.registerWith(registrar);
   DeviceInfoPlusWebPlugin.registerWith(registrar);
   FilePickerWeb.registerWith(registrar);
+  WebFlutterLocalNotificationsPlugin.registerWith(registrar);
   FlutterSecureStorageWeb.registerWith(registrar);
   ImageCropperPlugin.registerWith(registrar);
   ImagePickerPlugin.registerWith(registrar);
