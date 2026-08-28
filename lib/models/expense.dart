@@ -11,10 +11,14 @@ class Expense {
   final String name;
   final double amount;
   final DateTime date;
+  final String category;
+  final String type; // 'income' or 'expense'
 
   Expense({
     required this.name,
     required this.amount,
-    required this.date
+    required this.date,
+    this.category = 'Other',
+    this.type = 'expense',
   });
 }
