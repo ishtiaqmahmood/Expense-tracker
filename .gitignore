@@ -21,14 +21,12 @@ Thumbs.db
 .idea/
 *.swp
 *.swo
-*.tmp
 
 # Coverage
 coverage/
 htmlcov/
 .coverage
 
-# Distribution / packaging
-*.tar.gz
-*.zip
+# Temporary files
+*.tmp
 ```

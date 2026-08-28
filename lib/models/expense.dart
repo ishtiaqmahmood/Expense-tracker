@@ -1,8 +1,5 @@
 import 'package:isar/isar.dart';
 
-// this line is needed to generate isar file
-// run cmd in terminal: dart run build_runner build
-
 part 'expense.g.dart';
 
 @collection
@@ -21,4 +18,27 @@ class Expense {
     this.category = 'Other',
     this.type = 'expense',
   });
+
+  Map<String, dynamic> toJson() {
+    return {
+      'id': id,
+      'name': name,
+      'amount': amount,
+      'date': date.toIso8601String(),
+      'category': category,
+      'type': type,
+    };
+  }
+
+  factory Expense.fromJson(Map<String, dynamic> json) {
+    return Expense(
+      name: json['name'] ?? '',
+      amount: (json['amount'] ?? 0).toDouble(),
+      date: json['date'] != null 
+          ? DateTime.parse(json['date']) 
+          : DateTime.now(),
+      category: json['category'] ?? 'Other',
+      type: json['type'] ?? 'expense',
+    )..id = json['id'] ?? Isar.autoIncrement;
+  }
 }

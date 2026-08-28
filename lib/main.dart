@@ -12,9 +12,7 @@ import 'providers/settings_provider.dart';
 import 'providers/expense_provider.dart';
 import 'providers/auth_provider.dart';
 import 'screens/splash_screen.dart';
-import 'screens/auth_screen.dart';
-import 'screens/home_screen.dart';
-import 'screens/settings_screen.dart';
+import 'pages/home_page.dart';
 import 'utils/constants.dart';
 
 final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
@@ -93,14 +91,11 @@ class ProExpenseApp extends StatelessWidget {
           themeMode: settingsProvider.themeMode,
           
           // Localizations for multi-language support
-          localizationsDelegates: AppConstants.localizationsDelegates,
+          localizationsDelegates: const [],
           supportedLocales: AppConstants.supportedLocales,
           
-          // Initial route
-          initialRoute: '/',
-          
-          // Route generation
-          onGenerateRoute: AppConstants.generateRoute,
+          // Initial route - use HomePage directly
+          home: const HomePage(),
         );
       },
     );

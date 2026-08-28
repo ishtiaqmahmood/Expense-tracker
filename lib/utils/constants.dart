@@ -113,8 +113,8 @@ class AppConstants {
   static const String backupFileExtension = '.proexpense';
 
   // Haptic Feedback
-  static void hapticFeedback(HapticFeedbackType type) {
-    HapticFeedback.perform(type);
+  static void hapticFeedback(int type) {
+    HapticFeedback.vibrate();
   }
 
   // Vibration Patterns
