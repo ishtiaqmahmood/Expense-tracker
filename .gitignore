@@ -1,8 +1,8 @@
 ```
 # Dependencies
-.pub/
 .dart_tool/
-build/
+.packages
+.pub/
 
 # Environment
 .env
@@ -12,7 +12,18 @@ build/
 # Logs
 *.log
 
-# OS generated files
+# Temporary files
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
 .DS_Store
 Thumbs.db
 
